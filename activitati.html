@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consiliul Elevilor Grimăncăuți</title>
+    <link rel="stylesheet" href="2.css">
+    <link rel="icon" href="logo.jpg">
+    <!-- Adăugăm Font Awesome pentru iconițele rețelelor sociale -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+</head>
+<body>
+    <footer>
+        <div class="footer-container">
+            <img src="logo.jpg" alt="Logo" class="logo">
+            <h3 class="footer-title">Consiliul Elevilor Grimăncăuți</h3>
+            <ul class="footer-links">
+                <li><a href="principala.html">Pagina Principală</a></li>
+                <li><a href="membrii.html">Membrii</a></li>
+                <li><a href="activitati.html">Activități</a></li>
+                <li><a href="planul.html">Planul de activițăți</a></li>
+            </ul>
+            <!-- Adăugăm iconițele Facebook și Instagram -->
+            <div class="social-icons">
+                <a href="https://www.facebook.com/share/1B7HV26MV2/" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/consiliul_elevilor_grimancauti?igsh=NTc4MTIwNjQ2YQ==" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+<body>
+
+
+
+
+
+
+
+
+    <!-- Buton plus pentru adăugare -->
+    <button id="addActivityBtn" class="add-btn">+</button>
+
+    <!-- Formular de adăugare activitate (inițial ascuns) -->
+    <form id="activityForm" class="hidden">
+        <input type="text" id="activityTitle" placeholder="Denumire activitate" required>
+        <input type="text" id="activityImage" placeholder="URL imagine" required>
+        <textarea id="activityText" placeholder="Descriere" required></textarea>
+        <input type="text" id="activityLink" placeholder="Link detalii" required>
+        <button type="submit">Adaugă</button>
+    </form>
+    
+    <div class="activities" id="activitiesContainer">
+        <!-- Activitățile vor fi încărcate aici -->
+    </div>
+    
+    
+    <div class="activities">
+        <!-- Activitatea 1 -->
+        <div class="activity">
+            <div class="activity-img-container">
+                <img src="51.jpg" alt="foto" class="activity-img">
+            </div>
+            <div class="activity-content">
+                <h2> Întâlnirea cu absolvenții</h2>
+                <p class="activity-description">
+                    Întâlnirea cu absolvenții din 1 februarie, cu genericul „De-aș putea întoarce anii înapoi”, a fost mai mult decât o simplă revedere – a fost o întoarcere în timp, acolo unde au început atâtea amintiri și prietenii. Fiecare poveste împărtășită, fiecare zâmbet și fiecare îmbrățișare ne-au demonstrat că, deși anii trec, legăturile adevărate rămân. 🕰️⌛️
+
+                    Clasa a XII-a, gazda evenimentului, a creat o atmosferă caldă și primitoare, transformând această seară într-un moment de neuitat.🤩🥰
+                    Mulțumim tuturor celor care au fost alături, contribuind la farmecul acestei întâlniri! A fost o seară deosebită plină de energie, de nostalgie și de bucuria reîntâlnirii!🔝📖❤️
+                    
+                    Până la următoarea revedere!🌟🫶🏻
+                </p>
+                <div class="activity-links">
+                    <a href="https://www.facebook.com/share/p/15pkZt47fV/" target="_blank">Citește mai multe</a>
+                </div>
+            </div>
+        
+        </div>
+
+
+        <div class="activity">
+            <div class="activity-img-container">
+                <img src="41.jpg" alt="foto" class="activity-img">
+            </div>
+            <div class="activity-content">
+                <h2>olimpiada raională</h2>
+                <p class="activity-description">
+                    📢 În școala noastră, talentul și ambiția își spun cuvântul! Elevii noștri demonstrează, an de an, că munca, pasiunea și perseverența aduc rezultate deosebite. 🏆📚
+
+La olimpiadele recente, elevii noștri au obținut locuri de frunte, reprezentând cu mândrie școala noastră și dovedind că excelența este un obiectiv realizabil! 🌟
+
+Dragi participanți la olimpiada raională,
+În numele Consiliului Elevilor, dorim să vă felicităm pentru efortul și dedicarea voastră! Faptul că ați ales să participați la această competiție demonstrează ambiția, pasiunea și dorința voastră de vă performa. Continuați să vă urmați visurile și să vă depășiți limitele! 📖💡
+                </p>
+                <div class="activity-links">
+                    <a href="https://www.facebook.com/share/p/15yyxvp1VK/" target="_blank">Citește mai multe</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="activity">
+            <div class="activity-img-container">
+                <img src="2111.jpg" alt="Săptămâna Ecologică" class="activity-img">
+            </div>
+            <div class="activity-content">
+                <h2>Odată cu primele semne ale primăverii</h2>
+                <p class="activity-description">
+                    🌸Luni, 10 martie, Consiliul Elevilor al Liceului Teoretic Grimăncăuți a adus o rază de soare în inimile profesorilor. Elevii au oferit cu drag mărțișoare, simboluri ale renașterii naturii, urându-le dascălilor o primăvară înfloritoare, plină de bucurii și realizări. Gestul a fost apreciat de profesori, care au primit cu emoție micile daruri. Micile simboluri ale primăverii au adus o atmosferă nouă în liceu, marcând începutul unui anotimp plin de speranță. ✨🥰🩷
+                </p>
+                <div class="activity-links">
+                    <a href="https://www.facebook.com/share/p/17SbUGjx7w/" target="_blank">Citește mai multe</a>
+                </div>
+            </div>
+        </div>
+
+
+         <!-- Activitatea 2 -->
+ <div class="activity">
+    <div class="activity-img-container">
+        <img src="2.jpg" alt="Săptămâna Ecologică" class="activity-img">
+    </div>
+    <div class="activity-content">
+        <h2>14 Februarie</h2>
+        <p class="activity-description">
+            Pe 14 februarie, echipa Consiliului Elevilor a organizat o atmosferă specială, plină de culoare și energie. Îmbrăcați în roșu și înconjurați de decorațiuni tematice, membrii consiliului au sărbătorit dragostea și prietenia, aducând zâmbete pe fețele tuturor. O zi memorabilă, plină de emoție și spirit de echipă!❤️
+            De asemenea, Consiliul Elevilor a creat un colț special pentru mesaje anonime și declarații. O inițiativă minunată care a transformat ziua într-un moment memorabil! ✨📩”
+            
+            Vă dorim tuturor un 14 februarie plin de bucurie și momente frumoase!🥰❣️
+        </p>
+        <div class="activity-links">
+            <a href="https://www.facebook.com/share/p/17SbUGjx7w/" target="_blank">Citește mai multe</a>
+        </div>
+    </div>
+</div>
+
+
+
+
+        <!-- Activitatea 2 -->
+        <div class="activity">
+            <div class="activity-img-container">
+                <img src="1.jpg" alt="Săptămâna Ecologică" class="activity-img">
+            </div>
+            <div class="activity-content">
+                <h2>Ziua marelui poet național-Mihai Eminescu</h2>
+                <p class="activity-description">
+                    Astăzi, 15 ianuarie, celebrăm ziua nașterii marelui poet național, Mihai Eminescu – geniul literaturii române. Prin versurile sale, Eminescu ne-a lăsat moștenire un univers de profunzime și emoție. Poezia sa continuă să fie o sursă inepuizabilă de inspirație și mândrie culturală.📚📖
+                </p>
+                <div class="activity-links">
+                    <a href="https://www.facebook.com/share/p/1AtQSDTXkR/" target="_blank">Citește mai multe</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Activitatea 3 -->
+        <div class="activity">
+            <div class="activity-img-container">
+                <img src="3.jpg" alt="Campania de Fonduri" class="activity-img">
+            </div>
+            <div class="activity-content">
+                <h2>Magia Craciunului</h2>
+                <p class="activity-description">
+                    Creativitate în spiritul sărbătorilor! 🎄✨
+
+Săptămâna aceasta, școala noastră a fost cuprinsă de magia Crăciunului printr-o expoziție spectaculoasă de brazi creați de elevii noștri talentați! 🎨✨ 
+Fiecare clasă a avut provocarea de a-și pune la bătaie creativitatea, imaginația și spiritul de echipă pentru a realiza un brad care să impresioneze și să transmită bucuria sărbătorilor.
+
+🌟 Dincolo de design, fiecare brad a avut o poveste, iar energia pozitivă a elevilor noștri s-a simțit în fiecare detaliu!🎁
+
+🎄 Felicitări tuturor claselor pentru efortul depus! Ați demonstrat că magia Crăciunului vine din suflet, din muncă în echipă și din bucuria de a crea împreună. ✨
+                </p>
+                <div class="activity-links">
+                    <a href="https://www.fonduri.ro" target="_blank">Citește mai multe</a>
+               </div>
+               </div>
+        </div>
+   <!-- Activitatea 2 -->
+   <div class="activity">
+    <div class="activity-img-container">
+        <img src="4.jpg" alt="Săptămâna Ecologică" class="activity-img">
+    </div>
+    <div class="activity-content">
+        <h2>Ziua Internațională a Dreptului Omului</h2>
+        <p class="activity-description">
+            Ziua Internaţională a Drepturilor Omului - 10 decembrie
+            Întreaga lume marchează, pe data de 10 decembrie, Ziua internațională a drepturilor omului. La această dată, în 1948, Adunarea Generală a Națiunilor Unite a adoptat Declarația Universală a Drepturilor Omului. Documentul stipulează că toți oamenii s-au născut cu drepturi egale și inalienabile și cu libertăți fundamentale. În această zi ne propunem să reiterăm necesitatea de a lupta împotriva oricărei forme de abuz, discriminare sau atentat la drepturile şi libertăţile fundamentale ale omului.
+            
+            Este de datoria noastră să conștientizăm amploarea acestui fenomen și, acolo unde este posibil, să ne implicăm pentru a-l combate.
+        </p>
+        <div class="activity-links">
+            <a href="https://www.facebook.com/share/p/1ZPHrHLsmN/" target="_blank">Citește mai multe</a>
+        </div>
+    </div>
+</div>
+ <!-- Activitatea 2 -->
+ <div class="activity">
+    <div class="activity-img-container">
+        <img src="5.jpg" alt="Săptămâna Ecologică" class="activity-img">
+    </div>
+    <div class="activity-content">
+        <h2>Stop Bullying!</h2>
+        <p class="activity-description">
+            🔴În perioada de 4-8 noiembrie a avut loc săptămîna antibullying în incinta Liceului Teoretic Grimăncăuți, reprezentanții consiliului elevilor a adus la informare toate clasele despre impactul negativ al bullyingului și pentru a încuraja comportamentele de empatie,respect și sprijin reciproc între elevi.Aceste evenimente nu doar că ajută elevii să înțeleagă importanța respectării celorlalți, ci le oferă și instrumentele necesare pentru a reacționa în mod receptiv atunci când sunt martorii sau victimele unui comportament agresiv❗️
+            Săptămâna Anti-Bullying este un moment important pentru a construi o cultură a respectului și a incluziunii în școală și societate.🛑 ✋
+        </p>
+        <div class="activity-links">
+            <a href="https://www.facebook.com/share/p/16C5ZftzSZ/" target="_blank">Citește mai multe</a>
+        </div>
+    </div>
+</div>
+ 
+        <!-- Activitatea 2 -->
+        <div class="activity">
+            <div class="activity-img-container">
+                <img src="6.jpg" alt="Săptămâna Ecologică" class="activity-img">
+            </div>
+            <div class="activity-content">
+                <h2>𝓒ă𝓶𝓪𝓻𝓪 𝓕𝓮𝓼𝓽</h2>
+                <p class="activity-description">
+                    Pe 25 octombrie 2024, toamna și-a dezvăluit farmecul la “𝓒ă𝓶𝓪𝓻𝓪 𝓕𝓮𝓼𝓽” în Liceul Teoretic Grimăncăuți, un eveniment în care culorile și aromele acestui anotimp au fost sărbătorite din plin. Mirosul dulce de gemuri, borcane pline de murături, au umplut aerul, creând o atmosferă plină de nostalgie și căldură. A fost o zi în care am păstrat roadele toamnei în cămările noastre, dar și în amintirile noastre, bucurându-ne de bogăția pe care acest anotimp ne-o oferă. Toamna este acel moment din an când natura își dezvăluie toată frumusețea, într-o explozie de nuanțe arămii și auriu.Să ne bucurăm de fiecare clipă a acestui anotimp magic!” 🍂🍁
+                </p>
+                <div class="activity-links">
+                    <a href="https://www.facebook.com/share/p/18pmkFrYuJ/" target="_blank">Citește mai multe</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Activitatea 2 -->
+        <div class="activity">
+            <div class="activity-img-container">
+                <img src="7.jpg" alt="Săptămâna Ecologică" class="activity-img">
+            </div>
+            <div class="activity-content">
+                <h2>Stop traficul de ființe umane</h2>
+                <p class="activity-description">
+                    STOP TRAFICULUI DE FIINȚE UMANE 🚫
+
+Astăzi, 18 octombrie, este marcată Ziua Europeană de Luptă Împotriva Traficului de Persoane. 🔴 Această  zi are scopul de a crește nivelul de conștientizare asupra uneia dintre cele mai grave forme de crimă organizată, ce afectează milioane de oameni în întreaga lume. 👥
+
+Consiliul Elevilor Grimăncăuți a organizat o serie de activități pentru a educa și informa comunitatea cu privire la pericolele traficului de persoane. Prin discuții interactive, elevii au fost încurajați să vorbească deschis despre acest subiect și să învețe cum să se protejeze și să recunoască semnele acestui tip de abuz. 📚🔍
+
+Această acțiune subliniază importanța colaborării dintre elevi, cadrele didactice și comunitate pentru a contribui la combaterea traficului de persoane și a asigura un mediu sigur pentru toți. 💪🤝
+
+Fii vigilent, informează-te și ia atitudine! ✅
+                </p>
+                <div class="activity-links">
+                    <a href="https://www.facebook.com/share/p/16AF8AoFYj/" target="_blank">Citește mai multe</a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Activitatea 2 -->
+        <div class="activity">
+            <div class="activity-img-container">
+                <img src="8.jpg" alt="Săptămâna Ecologică" class="activity-img">
+            </div>
+            <div class="activity-content">
+                <h2>Alegerile din mandatul 2024-2025</h2>
+                <p class="activity-description">
+                    ✅Pe data de 10 octombrie 2024, în Liceul Teoretic Grimăncăuți, au avut loc alegerile pentru președintele Consiliului Elevilor, din mandatul 2024-2025.🔝
+                    În ziua alegerilor, ne-am unit vocile și am ales noul președinte al Consiliului Elevilor. Vă mulțumim tuturor pentru implicarea și participarea activă! Alegerile au fost o dovadă a maturității și responsabilității noastre ca elevi.
+                    •Conform rezultatelor noul Președinte este:Medvețchi Marinela✔️
+                    Succese mari tuturor!🤗
+                </p>
+                <div class="activity-links">
+                    <a href="https://www.facebook.com/share/p/1EyHWFP6Nb/" target="_blank">Citește mai multe</a>
+                </div>
+            </div>
+        </div>
+        <div class="activity">
+            <div class="activity-img-container">
+                <img src="10.jpg.png" alt="Săptămâna Ecologică" class="activity-img">
+            </div>
+            <div class="activity-content">
+                <h2>Ziua Profesorului!</h2>
+                <p class="activity-description">
+                    Prin mâna ta, iubite dascăl, gândirea prinde viată,
+                    Și lumea se deschide-n fața noastră larg.
+                    Cu tine, învățăm să-nvingem frica,
+                    De-aceea azi îți mulțumim cu drag"🍂
+                </p>
+                <div class="activity-links">
+                    <a href="https://www.facebook.com/share/v/1APPzPjNCn/" target="_blank">Citește mai multe</a>
+                </div>
+            </div>
+        </div>
+        <div class="activity">
+            <div class="activity-img-container">
+                <img src="11.png" alt="Săptămâna Ecologică" class="activity-img">
+            </div>
+            <div class="activity-content">
+                <h2>Mandatul 2023-2024.</h2>
+                <p class="activity-description">
+                    Astăzi a avut loc ultima ședință a consiliului de elevi din mandatul 2023-2024.🎓
+Mulțumim Direcției pentru susținere și apreciere, iar membrilor pentru implicare, străduință și momente unice.❤️
+                </p>
+                <div class="activity-links">
+                    <a href="https://www.facebook.com/share/v/161DvR2FxB/" target="_blank">Citește mai multe</a>
+                </div>
+            </div>
+        </div>
+        <div class="activity">
+            <div class="activity-img-container">
+                <img src="12.png" alt="Săptămâna Ecologică" class="activity-img">
+            </div>
+            <div class="activity-content">
+                <h2>79-a aniversare de la Ziua Victoriei din 1945</h2>
+                <p class="activity-description">
+                    Anul acesta marcăm cea de-a 79-a aniversare de la Ziua Victoriei din 1945 şi onorăm inimile curajoase care și-au dat viața în lupte în cel de-al doilea Război Mondial. Astăzi privim cu respect către trecut și aducem un omagiu eroilor cunoscuți și ostașilor fără nume care s-au opus nazismului.
+                    Nu s-au cicatrizat rănile războiului și nicidecum nu vom putea recupera imensele victime umane cauzate de sângerosul măcel. Memoria paginilor dramatice se regăsește nu doar în manualele de istorie, dar și în soarta multor familii, în amintirile buneilor și străbuneilor noștri.
+                    Chiar dacă timpul trece, amintirea acelor vremuri rămâne în memoria noastră, a omenirii și a istoriei🕯️
+                </p>
+                <div class="activity-links">
+                    <a href=https://www.facebook.com/share/v/12F3pn3itdn/" target="_blank">Citește mai multe</a>
+                </div>
+            </div>
+        </div>
+        <div class="activity">
+            <div class="activity-img-container">
+                <img src="13.png" alt="Săptămâna Ecologică" class="activity-img">
+            </div>
+            <div class="activity-content">
+                <h2>9 Mai</h2>
+                <p class="activity-description">
+                    9 Mai-Ziua Europei, sărbătorim pacea, unitatea și colaborarea în Europa
+                </p>
+                <div class="activity-links">
+                    <a href="https://www.facebook.com/share/v/18w6U2uJQa/" target="_blank">Citește mai multe</a>
+                </div>
+            </div>
+        </div>
+        <div class="activity">
+            <div class="activity-img-container">
+                <img src="14.png" alt="Săptămâna Ecologică" class="activity-img">
+            </div>
+            <div class="activity-content">
+                <h2>ZIUA DRAPELULUI DE STAT AL REPUBLICII MOLDOVA</h2>
+                <p class="activity-description">
+                    27 APRILIE- ZIUA DRAPELULUI DE STAT AL REPUBLICII MOLDOVA - SIMBOL AL SUVERANITĂȚII ȘI INDEPENDENȚEI
+                </p>
+                <div class="activity-links">
+                    <a href="https://www.facebook.com/share/v/1MKN5ZdxDu/" target="_blank">Citește mai multe</a>
+                </div>
+            </div>
+        </div>
+        <div class="activity">
+            <div class="activity-img-container">
+                <img src="15.jpg" alt="Săptămâna Ecologică" class="activity-img">
+            </div>
+            <div class="activity-content">
+                <h2>Activități educaționale dedicate Istoriei și culturii romilor</h2>
+                <p class="activity-description">
+                    📌
+Desfășurate în perioada 23-28 aprilie 2024 în Liceul Teoretic Grimăncăuți.
+Romii se confruntă adesea cu discriminare și marginalizare, ceea ce îi afectează negativ.Este important să se asigure un sistem de justiție corect și nediscriminatoriu pentru toți oamenii, indiferent de etnie🙏🏻.
+                </p>
+                <div class="activity-links">
+                    <a href="https://www.facebook.com/share/p/1936sZ31bH/" target="_blank">Citește mai multe</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="activity">
+            <div class="activity-img-container">
+                <img src="311.jpg" alt="Săptămâna Ecologică" class="activity-img">
+            </div>
+            <div class="activity-content">
+                <h2>Iarmaroc</h2>
+                <p class="activity-description">
+                    „Toamna este o simfonie, artă vie, în mii de culori”      -Valeria Mahok
+                </p>
+                <div class="activity-links">
+                    <a href=https://www.facebook.com/share/v/1A87q1qUKu/" target="_blank">Citește mai multe</a>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="activity">
+            <div class="activity-img-container">
+                <img src="16.jpg" alt="Săptămâna Ecologică" class="activity-img">
+            </div>
+            <div class="activity-content">
+                <h2>În vizita la o casa de copii</h2>
+                <p class="activity-description">
+                    “Bunătatea este limbajul pe care cel surd îl poate auzi şi cel orb îl poate vedea.”Mark Twain
+                    Mulțumim elevilor Liceului Teoretic Grimăncăuți
+                </p>
+                <div class="activity-links">
+                    <a href="https://www.facebook.com/share/p/1C8oqHNquV/" target="_blank">Citește mai multe</a>
+                </div>
+            </div>
+        </div>
+        <div class="activity">
+            <div class="activity-img-container">
+                <img src="17.jpg" alt="Săptămâna Ecologică" class="activity-img">
+            </div>
+            <div class="activity-content">
+                <h2>Săptămâna Europeană</h2>
+                <p class="activity-description">
+                    Săptămâna Europeană în școli se desfășoară în contextul campaniei de comunicare „Moldova Europeană” și este organizată la inițiativa Ministerului Educației și Cercetării. Scopul este de a informa elevii despre procesul de integrare a Republicii Moldova în Uniunea Europeană.
+În liceul nostru săptămână a culminat cu o activitatea extracurriculara - concurs organizata de profesoara de istorie Lesnic Lilia si elevii clasei a X-a.
+                </p>
+                <div class="activity-links">
+                    <a href="https://www.facebook.com/share/p/15iRSB4j9F/" target="_blank">Citește mai multe</a>
+                </div>
+            </div>
+        </div>
+        <div class="activity">
+            <div class="activity-img-container">
+                <img src="18.jpg" alt="Săptămâna Ecologică" class="activity-img">
+            </div>
+            <div class="activity-content">
+                <h2>Holocaust</h2>
+                <p class="activity-description">
+                    Activitatea de comemorare cu genericul: Holocaust:O lecție din trecut pentru prezent 🕯️
+                </p>
+                <div class="activity-links">
+                    <a href="https://www.facebook.com/share/p/165Q13GgyA/" target="_blank">Citește mai multe</a>
+                </div>
+            </div>
+        </div>
+        <div class="activity">
+            <div class="activity-img-container">
+                <img src="19.jpg" alt="Săptămâna Ecologică" class="activity-img">
+            </div>
+            <div class="activity-content">
+                <h2>Schimbul de experiență</h2>
+                <p class="activity-description">
+                    ✅ Ieri, la data de 2 mai anul 2023, a avut loc schimbul de experiență și bune practici dintre consiliile de elevi din Liceul Teoretic Grigore Vieru și Liceul Teoretic Grimăncăuți✨
+                    ✅ Le mulțumim consilierilor din Liceul Teoretic Grigore Vieru🤗 pentru că ne-au dat niște sfaturi foarte utile și exemple practice bune, pe care le vom aplica și noi cât mai curând posibil☺️
+                </p>
+                <div class="activity-links">
+                    <a href="https://www.facebook.com/share/p/1Drunfrgia/" target="_blank">Citește mai multe</a>
+                </div>
+            </div>
+        </div>
+        <div class="activity">
+            <div class="activity-img-container">
+                <img src="20.png" alt="Săptămâna Ecologică" class="activity-img">
+            </div>
+            <div class="activity-content">
+                <h2>Ziua Națională a Tricolorului Moldovenesc</h2>
+                <p class="activity-description">
+                    🇲🇩 Astăzi, 27 aprilie 2023, este Ziua Națională a Tricolorului Moldovenesc
+🇲🇩 Cu aceasta ocazie în liceul nostru a fost organizat un careu festiv la care elevii au avut parte să afle informații📝 și curiozități📜 interesante despre tricolor, să cânte cântece🎶 importante neamului nostru, dar și în general să poată savura magia steagului moldovenesc✨
+🇲🇩 Noi, membrii consiliului de elevi, ne-am bucurat enorm să aducem la cunoștință elevilor istoria, semnificația și importanța tricolorului nostru național, dar și am avut frumoasa onoare, de a purta acest flag pe hainele și în inimile noastre ❤️
+                </p>
+                <div class="activity-links">
+                    <a href="https://www.facebook.com/share/v/14s4P3iFLb/" target="_blank">Citește mai multe</a>
+                </div>
+            </div>
+        </div>
+        <div class="activity">
+            <div class="activity-img-container">
+                <img src="21.png" alt="Săptămâna Ecologică" class="activity-img">
+            </div>
+            <div class="activity-content">
+                <h2>Cu ocazia Sfintelor Sărbători de Paști🐇, </h2>
+                <p class="activity-description">
+                    Noi membrii Consiliului de Elevi ai Liceului Teoretic Grimăncăuți🏫 vă aducem cele mai sincere urări de pace, bucurie și desigur liniște sufletească 🤗
+                </p>
+                <div class="activity-links">
+                    <a href="https://www.facebook.com/share/v/15hhofWSgY/" target="_blank">Citește mai multe</a>
+                </div>
+            </div>
+        </div>
+        <div class="activity" >
+            <div class="activity-img-container">
+                <img src="22.png" alt="Săptămâna Ecologică" class="activity-img">
+            </div>
+            <div class="activity-content">
+                <h2>Noi și planeta Pământ, </h2>
+                <p class="activity-description">
+                    ✅ Astăzi, 28 martie 2023, în instituția noastră🏫, a avut loc activitatea "Noi și planeta Pământ"🌍, ghidată de profesoarea Lesnic Maia❤️
+                    ✅Echipa Consiliului de Elevi se bucură că a avut ocazia să se prezinte la acest eveniment și să aducă noi informații în cadrul ei 🤗
+                    ✅La activitate au mai participat elevi activi din clasele a IX-a șia a XI-a cărora le mulțumim enorm pentru timpul și străduința pe care l-au depus în cadrul evenimentului 👍
+                    ✅În final, vă sugeram să protejați natura care vă înconjoară 💚
+                </p>
+                <div class="activity-links">
+                    <a href="https://www.facebook.com/share/v/1Gmd6nn6TS/" target="_blank">Citește mai multe</a>
+                </div>
+            </div>
+        </div>
+
+
+
+
+       <div id="activities"></div>
+
+
+       
+
+
+      
+
+
+
+       <script src="script.js"></script>
+
+</body>
+
+</html>

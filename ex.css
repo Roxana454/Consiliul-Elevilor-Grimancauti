@@ -1,0 +1,74 @@
+footer {
+    background-color: rgb(70, 2, 2, 0.47); /* Fundal colorat */
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    width: 100%;
+    position: relative; /* Schimbat de la fixed la relative */
+}
+
+/* Container pentru elementele din footer */
+.footer-container {
+    display: flex;
+    align-items: center; /* Așează elementele vertical la mijloc */
+    justify-content: space-between; /* Distribuie elementele pe orizontală */
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Logo mai mic și aliniat */
+.logo {
+    width: 60px;
+    height: auto;
+    margin-right: 15px; /* Spațiu între logo și text */
+}
+
+/* Titlul */
+.footer-title {
+    font-size: 1.2em;
+    flex-grow: 1;
+    text-align: left;
+}
+
+/* Linkurile */
+.footer-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-left: 15px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #ff5733; /* Efect hover */
+}
+
+/* Iconițele de social media */
+.social-icons {
+    display: flex;
+    align-items: center; /* Aliniere verticală */
+    justify-content: center;
+}
+
+.social-icon {
+    color: white;
+    font-size: 24px;
+    margin-left: 20px;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #ff5733; /* Culoare la hover */
+}
